@@ -1,0 +1,6 @@
+[2016Feb29 17:43:34,210][INFO ][1456784013753][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2016Feb29 17:43:34,220][INFO ][1456784013753][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2016Feb29 17:43:34,222][INFO ][1456784013753][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2016Feb29 17:43:34,224][INFO ][1456784013753][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 86457801969607]
+[2016Feb29 17:43:34,262][INFO ][1456784013753][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2016Feb29 17:43:34,802][INFO ][1456784013753][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]

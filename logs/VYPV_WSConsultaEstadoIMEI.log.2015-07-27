@@ -1,0 +1,69 @@
+[2015Jul27 10:44:27,800][INFO ][1438010249509][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2015Jul27 10:44:27,810][INFO ][1438010249509][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2015Jul27 10:44:27,812][INFO ][1438010249509][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2015Jul27 10:44:27,814][INFO ][1438010249509][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 35260306261004]
+[2015Jul27 10:44:27,822][INFO ][1438010249509][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2015Jul27 10:44:28,035][INFO ][1438010249509][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]
+[2015Jul27 10:54:00,056][INFO ][][configurarLogger BSSIntLogger.java:67][APLICACION: VYPV_WSConsultaEstadoIMEI - VERSION: 1.1]
+[2015Jul27 10:54:00,073][INFO ][][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Web Service encargado de consultar el estado de un determinado IMEI  Funciona en Web Logic 8.1 dentro del .ear]
+[2015Jul27 10:54:00,085][INFO ][1438010820166][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2015Jul27 10:54:00,087][INFO ][1438010820166][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2015Jul27 10:54:00,089][INFO ][1438010820166][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2015Jul27 10:54:00,091][INFO ][1438010820166][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 35260306261004]
+[2015Jul27 10:54:00,100][INFO ][1438010820166][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2015Jul27 10:54:00,210][INFO ][1438010820166][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]
+[2015Jul27 10:55:33,771][FATAL][1438010820166][InvokeService ConsultaEstadoIMEI.java:66][El Header del mensaje SOAP contiene valores nulos--> ]
+java.lang.NullPointerException
+	at digitel.ConsultaEstadoIMEI.InvokeService(ConsultaEstadoIMEI.java:52)
+	at digitel.bindings.WSConsultaEstadoIMEIImpl.WSConsultaEstadoIMEI(WSConsultaEstadoIMEIImpl.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2015Jul27 10:55:56,610][INFO ][1438010937040][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2015Jul27 10:55:56,612][INFO ][1438010937040][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2015Jul27 10:55:56,614][INFO ][1438010937040][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2015Jul27 10:55:56,616][INFO ][1438010937040][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 35260306261004]
+[2015Jul27 10:55:56,625][INFO ][1438010937040][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2015Jul27 10:55:56,644][INFO ][1438010937040][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]
+[2015Jul27 11:16:02,179][INFO ][1438012140933][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2015Jul27 11:16:02,181][INFO ][1438012140933][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2015Jul27 11:16:02,183][INFO ][1438012140933][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2015Jul27 11:16:02,185][INFO ][1438012140933][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 35260306261004]
+[2015Jul27 11:16:02,193][INFO ][1438012140933][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2015Jul27 11:16:02,209][INFO ][1438012140933][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]
+[2015Jul27 14:21:03,091][INFO ][1438023258955][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2015Jul27 14:21:03,102][INFO ][1438023258955][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2015Jul27 14:21:03,104][INFO ][1438023258955][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2015Jul27 14:21:03,106][INFO ][1438023258955][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 35260306261004]
+[2015Jul27 14:21:03,114][INFO ][1438023258955][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2015Jul27 14:21:03,142][INFO ][1438023258955][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]
+[2015Jul27 14:21:20,199][INFO ][1438023276281][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2015Jul27 14:21:20,201][INFO ][1438023276281][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2015Jul27 14:21:20,203][INFO ][1438023276281][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2015Jul27 14:21:20,205][INFO ][1438023276281][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 35260306261004]
+[2015Jul27 14:21:20,213][INFO ][1438023276281][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2015Jul27 14:21:20,226][INFO ][1438023276281][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]

@@ -1,0 +1,8 @@
+[2020Feb27 14:26:23,114][INFO ][1582829739494][configurarLogger BSSIntLogger.java:67][APLICACION: VYPV_WSConsultaEstadoIMEI - VERSION: 1.1]
+[2020Feb27 14:26:23,118][INFO ][1582829739494][configurarLogger BSSIntLogger.java:69][DESCRIPCION: Web Service encargado de consultar el estado de un determinado IMEI  Funciona en Web Logic 8.1 dentro del .ear]
+[2020Feb27 14:26:23,146][INFO ][1582829770237][InvokeService ConsultaEstadoIMEI.java:75][Inicio invocación de WSConsultaEstadoIMEI]
+[2020Feb27 14:26:23,148][INFO ][1582829770237][InvokeService ConsultaEstadoIMEI.java:76][Channel: feuatc]
+[2020Feb27 14:26:23,150][INFO ][1582829770237][InvokeService ConsultaEstadoIMEI.java:77][User: feuatc]
+[2020Feb27 14:26:23,152][INFO ][1582829770237][InvokeService ConsultaEstadoIMEI.java:78][IMEI: 43434343434343]
+[2020Feb27 14:26:23,483][INFO ][1582829770237][InvokeService ConsultaEstadoIMEI.java:95][Conexion con la base de datos Exitosa]
+[2020Feb27 14:26:23,795][INFO ][1582829770237][InvokeService ConsultaEstadoIMEI.java:132][Consulta Exitosa. Estado: 3]

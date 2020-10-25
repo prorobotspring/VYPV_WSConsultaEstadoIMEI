@@ -1,0 +1,27 @@
+#Nombre del Datasource
+
+datasource=ds/vypv_fraude_sap
+#ds/VYPV_IMEI
+
+#Nombre del SP con su schema
+
+nameSP=SP_ConsultarEstadoIMEI
+
+#Numero de contrato
+
+contrato=ORMO-00081
+
+#Errores técnicos
+
+errorMesage2=ERROR al invocar el WS Consulta Estado IMEI.
+errorMesage3=El Header del mensaje SOAP contiene valores nulos
+errorMesage4=Error: Tratando de realizar conexión con la BD
+errorMesage5=ERROR al Ejecutar Stored Procedure
+
+
+#Mensajes Funcionales
+
+errorFuncional2=El Header del mensaje SOAP contiene valores vacíos.
+errorFuncional3=El IMEI suministrado es invalido o vacío
+errorFuncional4=Consulta Exitosa.
+errorFuncional5=Consulta Fallida del IMEI:
